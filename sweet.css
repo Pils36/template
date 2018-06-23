@@ -1,0 +1,262 @@
+*{
+	margin: 0;
+	padding: 0;
+	height: auto;
+}
+body{
+	font-family: "Encode Sans Semi Expanded";
+}
+header{
+	position: relative;
+}
+nav{
+	position: relative;
+	line-height: 2;
+	width: 1000px;
+	margin: 10px auto;
+}
+.logo{
+	font-size: 14px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+ul{
+	position: relative;
+	margin-top: 5px;
+}
+ul li a{
+	font-size: 14px;
+	color: blue;
+}
+a.log{
+	font-weight: bold;
+	font-size: 13px;
+	color: blue;
+	text-align: center;
+	margin: auto;
+}
+select.subject{
+	font-size: 13px;
+	text-align: center;
+}
+.main{
+	background: #f9fafb;
+	padding-bottom: 30px;
+	position: relative;
+	height: auto;
+}
+.source{
+	text-align: center;
+	margin: auto;
+	position: relative;
+}
+.source-text{
+	position: relative;
+	margin: 20px auto;
+}
+.source-text h1{
+	text-align: center;
+	font-size: 60px;
+	opacity: 0.8;
+}
+.source-text p{
+	width: 700px;
+	margin: auto;
+	font-size: 24px;
+	opacity: 0.8;
+	margin-top: 20px;
+	line-height: 2;
+}
+a#log{
+	margin-top: 30px;
+}
+
+img#slide{
+	position: relative;
+	margin-top: 100px;
+}
+.contribute{
+	position: relative;
+	width: 1000px;
+	margin: 30px auto;
+}
+.contribute h2{
+	position: relative;
+	margin: auto;
+	text-align: center;
+	opacity: 0.8;
+	margin-top: 100px;
+}
+.learn{
+	margin-top: 70px;
+	border-bottom: 1px solid grey;
+	padding: 50px;
+}
+.guide{
+	position: relative;
+	margin-top: 90px;
+}
+.guide p#head{
+	font-weight: bold;
+	font-size: 24px;
+}
+.guide p#head_guide{
+	opacity: 0.8;
+	line-height: 24px;
+}
+.guide a{
+	color: blue;
+}
+.find{
+	margin-top: 50px;
+}
+.find p#find_head{
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+.find p#find_content{
+	font-size: 20px;
+	line-height: 2;
+	letter-spacing: 1.5px;
+	opacity: 0.8;
+}
+.find p#content_head{
+	font-weight: bold;
+	margin-top: 30px;
+}
+.find p#content_body{
+	text-align: justify;
+	opacity: 0.8;
+	margin-right: 30px;
+}
+.list{
+	text-align: justify;
+	margin-left: 15px;
+	position: relative;
+	padding-top: 0;
+	margin-top: 0;
+}
+.box{
+	position: relative;
+}
+.box h1{
+	text-align: center;
+	margin-top: 50px;
+}
+.coy_row{
+	position: relative;
+	width: inherit;
+	margin-top: 80px;
+}
+.coy{
+	border: 1px solid rgba(55,55,55,0.4);
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.img_comp{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	border-radius: 50%;
+	border: 2px solid rgba(55,55,55,0.4);
+	box-shadow: rgb(0,0,0);
+	top: 15px;
+	left: 40%;
+	opacity: 0.9;
+}
+.coy p{
+	text-align: center;
+	font-size: 14px;
+	margin: 50px auto;
+	position: relative;
+	width: 80%;
+	height: auto;
+	opacity: 0.8;
+}
+.up-line{
+	position: relative;
+	margin-top: 70px;
+	border-top: 1px solid rgba(55,55,55,0.4);
+}
+.other{
+	margin-top: 100px;
+	position: inherit;
+	padding-bottom: 100px;
+}
+.other h5{
+	text-align: center;
+}
+.other a{
+	color: blue;
+}
+.other p{
+	position: relative;
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+	width: 70%;
+	opacity: 0.8;
+	line-height: 2;
+}
+.stay{
+	position: relative;
+	height: auto;
+}
+.stay p{
+	text-align: center;
+	margin-top: 70px;
+	word-spacing: 10px;
+	font-size: 16px;
+}
+.stay code{
+	color: black;
+	text-align: center;
+	margin-top: 70px;
+	word-spacing: 10px;
+	font-size: 16px;
+}
+.touch{
+	width: 50%;
+	height: 50vh;
+	background: #fff;
+	border-radius: 6px;
+	position: relative;
+	padding: 100px;
+	border: 1px solid rgba(55,55,55,0.4);
+	margin: auto;
+	top: 40px;
+}
+.touch h3{
+	position: inherit;
+	font-size: 34px;
+	text-align: center;
+	padding-bottom: 20px;
+	margin-top: -50px;
+}
+.touch p{
+	position: inherit;
+	text-align: center;
+	font-size: 14px;
+	margin-top: -15px;
+	line-height: 2;
+}
+.touch input{
+	position: inherit;
+	padding: 5px 20px;
+	left: 20%;
+}
+.touch a{
+	position: inherit;
+	left: 35%;
+	margin-top: 20px;
+	color: blue;
+	font-weight: bold;
+	border: 1px solid rgba(55,55,55,0.4);
+	padding: 10px 20px;
+}
+.touch a:hover{
+	background-color: blue;
+}

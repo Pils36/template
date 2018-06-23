@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!--Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded" rel="stylesheet">
+    <!--External CSS-->
+    <link rel="stylesheet" href="sweet.css">
+    <!--Icon-->
+    <link rel="icon" type="icon/img" href="bicycle.svg">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!--JavaScripting /  Jquery-->
+    <script src="main.js"></script>
+
+    <script>
+      
+    </script>
+    <title>Open Wednesday!</title>
+    <link rel="svg" href="bicycle.svg">
+  </head>
+  <body>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <a href="#" class="navbar-brand logo">Open Source Wednesday</a>
+            <ul class="navbar-nav menu">
+              <li class="nav-item">
+                  <a href="#" class="nav-list mr-4">Contributors</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-list mr-4">Businesses</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-list mr-4">Maintainers</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="btn btn-outline-primary mr-4" role="button">Sign up</a>
+              </li>
+              <li class="nav-item">
+                  <select class="custom-select mr-2 subject" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                    <option selected value="">Select...</option>
+                    <option value="index.html?locale=en">English</option>
+                    <option value="index.html?locale=yor">Yoruba</option>
+                  </select>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    <div class="main">
+      <div class="jumbotron">
+        <!--Open Source-->
+        <div class="container-fluid openhead">
+          <div class="container source">
+            <div class="source-text">
+              <h1>Open Source Wednesday</h1>
+              <p>Open source is made by people just like you. 
+              This Wednesday, invest a few hours contributing to the software you use and love.</p>
+              <a href="#" class="btn btn-success" role="button" id="log">Sign up with Pilstech</a>
+              <img src="bicycle.svg" alt="image" id="slide">
+            </div>
+          </div>
+        </div>
+      </div>  
+        <!--Contribution-->
+        <div class="container-fluid">
+          <div class="container contribute">
+            <h2>Contribute on Open Source Wednesday</h2>
+            <div class="row learn">
+              <div class="col-lg-6">
+                <img src="space.svg" alt="image">
+              </div>
+              <div class="col-lg-6 guide">
+                <p id="head">Learn to contribute</p>
+                <p id="head_guide">Learn what it means to contribute, and how to find and get started on a new project.</p>
+                <a href="#">Read the guide  <i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+            <!--Find a Project-->
+            <div class="container find">
+                <p id="find_head">Find a project to contribute to</p>
+                <p id="find_content">Contributing to open source happens at all levels, across projects and design, documentation, 
+                  operations and code.You don’t need to overthink what exactly your first contribution will be, 
+                  or how it will look</p>
+                <div class="row">
+                  <div class="col-lg-4">
+                    <p id="content_head">A project you already use</p>
+                    <p id="content_body">Start by thinking about the projects you already use or want to use. 
+                      The projects you’ll actively contribute to are the ones you find yourself coming back to</p>
+                  </div>
+                    <div class="col-lg-4">
+                      <p id="content_head">An issue you can fix</p>
+                      <p id="content_body">Check out these sites to find a project looking for your help:</p>
+                      <ul class="list">
+                        <li><a href="#">Your First PR</a></li>
+                        <li><a href="#">Up For Grabs</a></li>
+                        <li><a href="#">CodeTriange</a></li>
+                      </ul>
+                    </div>
+                      <div class="col-lg-4">
+                        <p id="content_head">A warm welcome</p>
+                        <p id="content_body">Find a project that has a history 
+                          and reputation for being welcoming to new contributors in 
+                          <a href="#" style="color: blue">GitHub's great for new contributors </a>showcase.</p>
+                      </div>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+      <!--Good Company-->
+      <div class="container">
+          <div class="box">
+              <h1>You're in good company</h1>
+            <div class="row coy_row">
+              <div class="col-lg-6">
+                <div class="coy">
+                <img class="img_comp" src="avatar1.jpg" alt="avatar">
+                <p>Contributing to open source not only allows businesses of every size to take advantage and 
+                  build upon the talents of others, it’s also an avenue for those new to coding to acclimate themselves 
+                  to the development process in ways that allow them to practice, 
+                  experiment, and showcase themselves as valuable and contributing members of the community.</p>
+                  <p>— Taylor Cray (<a href="#">@tycray7</a>)</p>
+                  <p>Community Engineer, Writer, Founder</p>
+                  </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="coy">
+                  <img class="img_comp" src="avatar2.jpg" alt="avatar">
+                  <p>I got to where I am today by contributing to open source software, 
+                    allowing me to not only improve my skills as a software developer but also to increase my network of 
+                    colleagues and to meet new and interesting friends from extremely diverse cultures. 
+                    I can highly recommend it.</p>
+                  <p>— Clifford James (<a href="#">@cliffordjay</a>)</p>
+                  <p><a href="#">Debian Project</a> Leader</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <!--Other Menu-->
+      <div class="container-fluid up-line">
+        <div class="container">
+          <div class="row other">
+            <div class="col-lg-6">
+              <h5><a href="#">Businesses <i class="fa fa-angle-right"></i></a></h5>
+              <p>Your business runs on open source. Learn how to get involved.</p>
+            </div>
+            <div class="col-lg-6">
+                <h5><a href="#">Maintainers <i class="fa fa-angle-right"></i></a></h5>
+                <p>Give your project some love to help others contribute where you need it most.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+<!--Stay In touch-->
+<div class="container-fluid main">
+      <footer>
+        <div class="container-fluid">
+          <div class="container stay">
+            <div class="container touch">
+              <h3>Stay in touch</h3>
+              <p>Be the first to hear about Pils latest open source tips and resources.</p>
+              <input type="email" placeholder="Email Address"> <br><br>
+              <a href="#" class="btn btn-outline-primary mr-4" role="button">Subscribe</a>
+            </div>
+            <p>
+              <code><> with <i class="fa fa-heart"></i> by Pils</code>
+            </p>
+          </div>
+        </div>
+      </footer>
+</div>
+    
+    
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
